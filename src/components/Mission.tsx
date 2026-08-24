@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Mission() {
   return (
-    <section className="py-24 md:py-32 px-12 max-w-[1600px] mx-auto border-b border-dark/10">
+    <section id="sobre" className="py-24 md:py-32 px-12 max-w-[1600px] mx-auto border-b border-dark/10">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 mb-16 md:mb-24">
         <div className="lg:w-1/4">
           <div className="text-[10px] uppercase tracking-[0.2em] font-semibold opacity-60">
@@ -30,8 +30,9 @@ export default function Mission() {
             />
           </div>
           <div className="pt-6 pb-4 px-2">
-            <div className="text-[10px] uppercase tracking-[0.2em] font-semibold opacity-40 mb-2">Performance</div>
-            <div className="text-xl font-serif">Preservando o ROI</div>
+            <div className="text-[10px] uppercase tracking-[0.2em] font-semibold opacity-40 mb-2">Produto Digital</div>
+            <div className="text-xl font-serif mb-1">Agente de Inteligência Artificial para WhatsApp</div>
+            <div className="text-sm font-semibold text-dark/70">R$ 499</div>
           </div>
         </div>
         
@@ -44,8 +45,9 @@ export default function Mission() {
             />
           </div>
           <div className="pt-6 pb-4 px-2">
-            <div className="text-[10px] uppercase tracking-[0.2em] font-semibold opacity-40 mb-2">Curadoria</div>
-            <div className="text-xl font-serif">Design de Estratégia</div>
+            <div className="text-[10px] uppercase tracking-[0.2em] font-semibold opacity-40 mb-2">Produto Digital</div>
+            <div className="text-xl font-serif mb-1">Agente de Inteligência Artificial para Instagram</div>
+            <div className="text-sm font-semibold text-dark/70">R$ 499</div>
           </div>
         </div>
         

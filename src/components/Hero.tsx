@@ -3,7 +3,7 @@ import HeroBackground from './HeroBackground';
 
 export default function Hero() {
   return (
-    <section className="relative px-12 py-20 md:py-32 max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center border-b border-dark/10 overflow-hidden">
+    <section id="especialidades" className="relative px-12 py-20 md:py-32 max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center border-b border-dark/10 overflow-hidden">
       
       {/* Background Abstract Art */}
       <HeroBackground />

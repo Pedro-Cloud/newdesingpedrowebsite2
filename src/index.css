@@ -9,6 +9,10 @@
   --color-accent: #1A1A1A;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-sand);
   color: var(--color-dark);

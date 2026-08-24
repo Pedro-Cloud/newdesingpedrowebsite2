@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Feature() {
   return (
-    <section className="py-24 px-12 max-w-[1600px] mx-auto border-b border-dark/10">
+    <section id="projetos" className="py-24 px-12 max-w-[1600px] mx-auto border-b border-dark/10">
       <div className="flex justify-between items-baseline mb-16">
         <div className="text-[10px] uppercase tracking-[0.2em] font-semibold opacity-60">
           Redefinindo o marketing, uma campanha de cada vez.

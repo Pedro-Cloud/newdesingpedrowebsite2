@@ -2,7 +2,7 @@ import { Check } from 'lucide-react';
 
 export default function Pricing() {
   return (
-    <section className="py-24 md:py-32 px-12 max-w-[1600px] mx-auto border-b border-dark/10">
+    <section id="produtos" className="py-24 md:py-32 px-12 max-w-[1600px] mx-auto border-b border-dark/10">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">
         <div className="max-w-2xl">
           <h2 className="font-serif text-4xl md:text-5xl lg:text-7xl leading-[0.9] tracking-tighter mb-6">
