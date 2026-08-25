@@ -10,17 +10,22 @@ import Feature from './components/Feature';
 import Pricing from './components/Pricing';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
+import Cart from './components/Cart';
+import { CartProvider } from './context/CartContext';
 
 export default function App() {
   return (
-    <div className="min-h-screen selection:bg-accent selection:text-dark">
-      <Navbar />
-      <Hero />
-      <Mission />
-      <Feature />
-      <Pricing />
-      <Newsletter />
-      <Footer />
-    </div>
+    <CartProvider>
+      <div className="min-h-screen selection:bg-accent selection:text-dark">
+        <Navbar />
+        <Hero />
+        <Mission />
+        <Feature />
+        <Pricing />
+        <Newsletter />
+        <Footer />
+        <Cart />
+      </div>
+    </CartProvider>
   );
 }

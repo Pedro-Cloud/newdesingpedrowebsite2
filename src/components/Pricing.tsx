@@ -1,6 +1,10 @@
 import { Check } from 'lucide-react';
+import { useCart } from '../context/CartContext';
+import { PRODUCTS } from '../data/products';
 
 export default function Pricing() {
+  const { addToCart } = useCart();
+
   return (
     <section id="produtos" className="py-24 md:py-32 px-12 max-w-[1600px] mx-auto border-b border-dark/10">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">
@@ -42,9 +46,12 @@ export default function Pricing() {
             <li className="flex items-center gap-3"><Check className="w-4 h-4 text-dark/40" /> Criação de Landing Page</li>
           </ul>
           
-          <a href="https://wa.me/5511983404617" target="_blank" rel="noopener noreferrer" className="block text-center w-full py-4 border border-dark font-semibold uppercase text-xs tracking-widest hover:bg-dark hover:text-sand transition-colors cursor-pointer">
-            Selecionar
-          </a>
+          <button 
+            onClick={() => addToCart(PRODUCTS.presenca_digital)}
+            className="w-full py-4 border border-dark font-semibold uppercase text-xs tracking-widest hover:bg-dark hover:text-sand transition-colors cursor-pointer"
+          >
+            Adicionar ao Carrinho
+          </button>
         </div>
 
         {/* Pro */}
@@ -70,9 +77,12 @@ export default function Pricing() {
             <li className="flex items-center gap-3"><Check className="w-4 h-4 text-sand/60" /> Agentes de IA: WhatsApp e Instagram</li>
           </ul>
           
-          <a href="https://wa.me/5511983404617" target="_blank" rel="noopener noreferrer" className="block text-center w-full py-4 border border-sand bg-sand text-dark font-semibold uppercase text-xs tracking-widest hover:bg-transparent hover:text-sand transition-colors cursor-pointer">
-            Tornar-se Parceiro
-          </a>
+          <button 
+            onClick={() => addToCart(PRODUCTS.aceleracao_total)}
+            className="w-full py-4 border border-sand bg-sand text-dark font-semibold uppercase text-xs tracking-widest hover:bg-transparent hover:text-sand transition-colors cursor-pointer"
+          >
+            Adicionar ao Carrinho
+          </button>
         </div>
 
         {/* Elite */}
@@ -98,9 +108,12 @@ export default function Pricing() {
             <li className="flex items-center gap-3"><Check className="w-4 h-4 text-dark/40" /> Agentes de IA: WhatsApp e Instagram</li>
           </ul>
           
-          <a href="https://wa.me/5511983404617" target="_blank" rel="noopener noreferrer" className="block text-center w-full py-4 border border-dark font-semibold uppercase text-xs tracking-widest hover:bg-dark hover:text-sand transition-colors cursor-pointer">
-            Falar com Especialista
-          </a>
+          <button 
+            onClick={() => addToCart(PRODUCTS.dominancia)}
+            className="w-full py-4 border border-dark font-semibold uppercase text-xs tracking-widest hover:bg-dark hover:text-sand transition-colors cursor-pointer"
+          >
+            Adicionar ao Carrinho
+          </button>
         </div>
       </div>
     </section>
