@@ -11,12 +11,12 @@ export default function Feature() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
-        <div className="relative">
+        <div className="relative group cursor-pointer">
           <div className="border border-dark/10 p-2 bg-white z-10 relative">
              <img 
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1600" 
               alt="Collaboration" 
-              className="w-full h-[400px] md:h-[500px] object-cover grayscale"
+              className="w-full h-[400px] md:h-[500px] object-cover transition-all duration-700 grayscale group-hover:grayscale-0"
             />
           </div>
           {/* Offset border for editorial look */}
