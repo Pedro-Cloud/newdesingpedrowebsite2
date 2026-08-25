@@ -26,7 +26,7 @@ export default function Mission() {
             <img 
               src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" 
               alt="Data Analytics" 
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale"
+              className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0"
             />
           </div>
           <div className="pt-6 pb-4 px-2">
@@ -41,7 +41,7 @@ export default function Mission() {
             <img 
               src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800" 
               alt="Strategy" 
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale"
+              className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0"
             />
           </div>
           <div className="pt-6 pb-4 px-2">
